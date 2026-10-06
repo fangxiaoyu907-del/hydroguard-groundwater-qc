@@ -1,5 +1,7 @@
 # HydroGuard | 地下水监测数据智能质控
 
+[![Tests](https://github.com/fangxiaoyu907-del/hydroguard-groundwater-qc/actions/workflows/tests.yml/badge.svg)](https://github.com/fangxiaoyu907-del/hydroguard-groundwater-qc/actions/workflows/tests.yml)
+
 面向地下水及环境监测时序数据的 Python **离线批量质控工具**。结合时序特征、Isolation Forest、稳健统计与业务规则，完成异常标记、有限自动修复和可追溯报告输出。
 
 这是一个可复现的个人作品展示项目，不是已部署的生产系统，也不属于大语言模型 Agent 或地下水位预测模型。示例均为程序生成的合成数据。

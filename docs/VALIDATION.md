@@ -1,4 +1,4 @@
-# 本地验证记录
+# 本地与自动化验证记录
 
 验证日期：2026-10-07。此日期是发布准备核验日期，不代表历史项目开发时间。
 
@@ -25,9 +25,14 @@ OK
 
 以上是固定合成样例与当前配置的运行结果，不代表现场性能。
 
-## 待验证
+## GitHub 自动测试
 
-仓库附有自动测试工作流，安装完整依赖后会强制检查 scikit-learn、执行全部测试与合成演示。在首次远程运行成功前，不宣称 GitHub Actions 已通过。
+2026-10-07 的首次公开提交已通过 GitHub Actions。工作流在 Ubuntu / Python 3.12 下安装完整依赖、强制检查 scikit-learn、执行全部测试与合成演示。
+
+- 已验证提交：`5e6a3e4b16e9741a3c97be92a11235b4ff48d5ec`
+- [对应的成功运行记录](https://github.com/fangxiaoyu907-del/hydroguard-groundwater-qc/actions/runs/37517631057)
+
+此记录仅证明对应提交在该次运行中通过，后续提交请以 Actions 最新状态为准。
 
 工作流使用 GitHub 官方 [checkout](https://github.com/actions/checkout) 和 [setup-python](https://github.com/actions/setup-python)。
 
