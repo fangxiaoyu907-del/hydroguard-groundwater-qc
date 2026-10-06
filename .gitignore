@@ -1,0 +1,24 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Runs may include input data and local absolute paths.
+outputs/
+private_data/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating-system metadata
+Thumbs.db
+.DS_Store
